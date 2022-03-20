@@ -1,0 +1,61 @@
+
+body{
+  background-color: #dcd1b4;
+  font-family: 'Fredoka', sans-serif;
+  padding: 4vw; /*100px;*/
+}
+
+h1 {
+  color: #b05674;
+}
+
+h2{
+  color: #b05674;
+  font-size: 1.6vw;
+}
+
+#pbold {
+  color: #fab880;
+  font-weight: bold;
+  font-size: 1.4vw; /*20px*/
+}
+
+p {
+  color: #fab880;
+  font-size: 1.1vw; /*14px*/
+}
+
+.information {
+  background-color: #5e9fa3;
+  padding: 4vw 16vw 4vw 16vw; /*70px 200px 100px 200px;*/
+  width: 47vw; /*600px*/
+}
+
+.links{
+  background-color: #f87e7b;
+  padding: 4vw 16vw 4vw 16vw; /*50px 200px;*/
+  width: 47vw; /*600px*/
+}
+
+.links a{
+  color: #fab880;
+  font-size: 1.1vw;
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: #b05674;
+}
+
+ul {
+  /*list-style-type: none;*/
+  list-style-type: repeating-emoji;
+}
+
+/*This is a list with repeating fruit emojis as bullets*/
+@counter-style repeating-emoji {
+  system: cyclic;
+  symbols: "\1F34E" "\1F34B" "\1F34F" ;
+  suffix: " ";
+  
+}
